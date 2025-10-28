@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f7f8;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  background: #243b55;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+th {
+  background: #1abc9c;
+  color: white;
+}
+
+tr:nth-child(even) { background: #f9f9f9; }
+
+.top-rated { background-color: #eafbea; color: #27ae60; }
+
+form {
+  width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add_btn{
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+button, .button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover, .button:hover {
+  background-color: #16a085;
+}
+
+footer {
+  background: #243b55;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
